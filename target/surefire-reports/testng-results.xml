@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-10T00:04:28 MSK" name="Command line suite" finished-at="2020-07-10T00:04:38 MSK" duration-ms="10330">
+    <groups>
+    </groups>
+    <test started-at="2020-07-10T00:04:28 MSK" name="Command line test" finished-at="2020-07-10T00:04:38 MSK" duration-ms="10330">
+      <class name="testPages.MenuPageTest">
+        <test-method signature="checkTabsProduct()[pri:1, instance:testPages.MenuPageTest@6b44435b]" started-at="2020-07-10T00:04:34 MSK" name="checkTabsProduct" finished-at="2020-07-10T00:04:35 MSK" duration-ms="1072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTabsProduct -->
+        <test-method signature="checkTabsPrice()[pri:2, instance:testPages.MenuPageTest@6b44435b]" started-at="2020-07-10T00:04:35 MSK" name="checkTabsPrice" finished-at="2020-07-10T00:04:36 MSK" duration-ms="835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTabsPrice -->
+        <test-method signature="checkTabsFAQ()[pri:3, instance:testPages.MenuPageTest@6b44435b]" started-at="2020-07-10T00:04:36 MSK" name="checkTabsFAQ" finished-at="2020-07-10T00:04:36 MSK" duration-ms="917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTabsFAQ -->
+        <test-method signature="checkTabsWantTest()[pri:4, instance:testPages.MenuPageTest@6b44435b]" started-at="2020-07-10T00:04:36 MSK" name="checkTabsWantTest" finished-at="2020-07-10T00:04:37 MSK" duration-ms="882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTabsWantTest -->
+        <test-method signature="checkLoginButton()[pri:5, instance:testPages.MenuPageTest@6b44435b]" started-at="2020-07-10T00:04:37 MSK" name="checkLoginButton" finished-at="2020-07-10T00:04:38 MSK" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginButton -->
+      </class> <!-- testPages.MenuPageTest -->
+      <class name="testPages.AuthorizationPageTest">
+        <test-method signature="authClient()[pri:0, instance:testPages.AuthorizationPageTest@b6b1987]" started-at="2020-07-10T00:04:28 MSK" name="authClient" finished-at="2020-07-10T00:04:34 MSK" duration-ms="5631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authClient -->
+      </class> <!-- testPages.AuthorizationPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
