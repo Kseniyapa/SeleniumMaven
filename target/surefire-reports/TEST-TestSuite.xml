@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="TestSuite" time="10.237" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="TestSuite" time="10.367" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="14.0.1+7"/>
@@ -57,10 +57,10 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="testPages.AuthorizationPageTest" name="authClient" time="5.655"/>
-  <testcase classname="testPages.MenuPageTest" name="checkTabsProduct" time="1.073"/>
-  <testcase classname="testPages.MenuPageTest" name="checkTabsPrice" time="0.835"/>
-  <testcase classname="testPages.MenuPageTest" name="checkTabsFAQ" time="0.916"/>
-  <testcase classname="testPages.MenuPageTest" name="checkTabsWantTest" time="0.88"/>
-  <testcase classname="testPages.MenuPageTest" name="checkLoginButton" time="0.878"/>
+  <testcase classname="testPages.AuthorizationPageTest" name="authClient" time="6.247"/>
+  <testcase classname="testPages.MenuPageTest" name="checkTabsProduct" time="0.925"/>
+  <testcase classname="testPages.MenuPageTest" name="checkTabsPrice" time="0.767"/>
+  <testcase classname="testPages.MenuPageTest" name="checkTabsFAQ" time="0.843"/>
+  <testcase classname="testPages.MenuPageTest" name="checkTabsWantTest" time="0.793"/>
+  <testcase classname="testPages.MenuPageTest" name="checkLoginButton" time="0.792"/>
 </testsuite>

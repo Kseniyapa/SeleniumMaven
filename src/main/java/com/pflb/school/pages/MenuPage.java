@@ -46,7 +46,7 @@ public class MenuPage {
 
 
     @Step(value = "Проверяем вкладку 'Хочу тестировать сайты'")
-    public boolean tabWantTest() {
+    public boolean tabWantTestButton() {
         return tabProductWantTest.isEnabled();
     }
 

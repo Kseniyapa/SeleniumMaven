@@ -33,7 +33,7 @@ public class MenuPageTest {
     @Test(priority = 4)
     public void checkTabsWantTest() {
         authorizationPage.open(BASEURL);
-        Assert.assertTrue(menuPage.tabWantTest());
+        Assert.assertTrue(menuPage.tabWantTestButton());
     }
 
     @Test(priority = 5)
