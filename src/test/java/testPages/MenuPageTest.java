@@ -16,7 +16,7 @@ public class MenuPageTest {
     private static final String BASEURL = "http://test.uxcrowd.ru";
 
     @Test(priority = 1)
-    @Description(value = "Проверяем вкладку 'О продукте', " +
+    @Description("Проверяем вкладку 'О продукте', " +
             "должна быть активна и при нажатии открывать соответствующий функционал")
     public void checkTabsProduct() {
         step("Проверяем вкладку 'О продуте'");
@@ -25,7 +25,7 @@ public class MenuPageTest {
     }
 
     @Test(priority = 2)
-    @Description(value = "Проверяем вкладку 'Цены'" +
+    @Description("Проверяем вкладку 'Цены'" +
             "должна быть активна и при нажатии открывать соответствующий функционал")
     public void checkTabsPrice() {
         step("Проверяем вкладку 'Цены'");
@@ -34,7 +34,7 @@ public class MenuPageTest {
     }
 
     @Test(priority = 3)
-    @Description(value = "Проверяем вкладку 'FAQ'" +
+    @Description("Проверяем вкладку 'FAQ'" +
             "должна быть активна и при нажатии открывать соответствующий функционал")
     public void checkTabsFAQ() {
         step("Проверяем вкладку 'FAQ'");
@@ -43,7 +43,7 @@ public class MenuPageTest {
     }
 
     @Test(priority = 4)
-    @Description(value = "Проверяем вкладку 'Хочу тестировать сайты'" +
+    @Description("Проверяем вкладку 'Хочу тестировать сайты'" +
             "должна быть активна и при нажатии открывать соответствующий функционал")
     public void checkTabsWantTest() {
         step("Проверяем вкладку 'Хочу тестировать сайты'");
@@ -52,7 +52,7 @@ public class MenuPageTest {
     }
 
     @Test(priority = 5)
-    @Description(value = "Проверяем кнопку 'Войти'" +
+    @Description("Проверяем кнопку 'Войти'" +
             "должна быть активна и при нажатии открывать окно авторизации")
     public void checkLoginButton() {
         step("Проверяем кнопку 'Войти'");

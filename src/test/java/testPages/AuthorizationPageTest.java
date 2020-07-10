@@ -19,7 +19,7 @@ public class AuthorizationPageTest {
     private static final String BASEURL = "http://test.uxcrowd.ru";
 
     @Test
-    @Description(value = "Провека функционала авторизации с заранее известными данными, " +
+    @Description("Провека функционала авторизации с заранее известными данными, " +
             "при успешном прохождении должны попасть в личный кабинет")
     public void authClient() {
         step("Открываем соединение'");
