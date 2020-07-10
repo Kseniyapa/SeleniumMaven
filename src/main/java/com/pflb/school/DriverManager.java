@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 public class DriverManager {
     private static WebDriver driver;
 
-    private DriverManager() {
+    public DriverManager() {
     }
 
 

@@ -1,6 +1,7 @@
 package testPages;
 
 import io.qameta.allure.Description;
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -9,7 +10,7 @@ import com.pflb.school.pages.*;
 
 import static io.qameta.allure.Allure.step;
 
-public class MenuPageTest  {
+public class MenuPageTest {
 
     private final MenuPage menuPage = new MenuPage();
     private final AuthorizationPage authorizationPage = new AuthorizationPage();
