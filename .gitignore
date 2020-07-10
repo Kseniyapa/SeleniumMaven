@@ -1,4 +1,5 @@
 /.idea/
 /MavenSelenium.iml/
 /MavenSelenium.iml
-MavenSelenium.iml
+/target/
+target/
