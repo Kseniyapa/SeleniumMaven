@@ -3,3 +3,5 @@
 /MavenSelenium.iml
 target/
 allure-results
+/.allure/allure-2.0.1/
+.allure/allure-2.0.1
