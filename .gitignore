@@ -1,5 +1,5 @@
 /.idea/
 /MavenSelenium.iml/
 /MavenSelenium.iml
-/target/
 target/
+allure-results
