@@ -1,7 +1,6 @@
 package testPages;
 
 import io.qameta.allure.Description;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
