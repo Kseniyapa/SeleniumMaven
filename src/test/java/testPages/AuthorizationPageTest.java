@@ -1,14 +1,17 @@
 package testPages;
 
+import Listener.ScreenshotListener;
 import io.qameta.allure.Description;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import com.pflb.school.pages.AuthorizationPage;
 
 
 import static io.qameta.allure.Allure.step;
 
+@Listeners({ScreenshotListener.class})
 public class AuthorizationPageTest {
 
     private final AuthorizationPage authorizationPage = new AuthorizationPage();

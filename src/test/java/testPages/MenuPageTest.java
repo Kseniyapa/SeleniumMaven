@@ -1,7 +1,9 @@
 package testPages;
 
+import Listener.ScreenshotListener;
 import io.qameta.allure.Description;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.pflb.school.DriverManager;
@@ -9,6 +11,7 @@ import com.pflb.school.pages.*;
 
 import static io.qameta.allure.Allure.step;
 
+@Listeners({ScreenshotListener.class})
 public class MenuPageTest {
 
     private final MenuPage menuPage = new MenuPage();
@@ -29,7 +32,6 @@ public class MenuPageTest {
             "должна быть активна и при нажатии открывать соответствующий функционал")
     public void checkTabsPrice() {
         step("Проверяем вкладку 'Цены'");
-        authorizationPage.open(BASEURL);
         Assert.assertTrue(menuPage.tabMenuItemPrice());
     }
 
@@ -38,7 +40,6 @@ public class MenuPageTest {
             "должна быть активна и при нажатии открывать соответствующий функционал")
     public void checkTabsFAQ() {
         step("Проверяем вкладку 'FAQ'");
-        authorizationPage.open(BASEURL);
         Assert.assertTrue(menuPage.tabMenuItemFAQ());
     }
 
@@ -47,7 +48,6 @@ public class MenuPageTest {
             "должна быть активна и при нажатии открывать соответствующий функционал")
     public void checkTabsWantTest() {
         step("Проверяем вкладку 'Хочу тестировать сайты'");
-        authorizationPage.open(BASEURL);
         Assert.assertTrue(menuPage.tabWantTestButton());
     }
 
@@ -56,7 +56,6 @@ public class MenuPageTest {
             "должна быть активна и при нажатии открывать окно авторизации")
     public void checkLoginButton() {
         step("Проверяем кнопку 'Войти'");
-        authorizationPage.open(BASEURL);
         Assert.assertTrue(menuPage.loginButton());
         DriverManager.getDriver().quit();
     }
