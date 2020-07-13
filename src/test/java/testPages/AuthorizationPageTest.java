@@ -22,7 +22,7 @@ public class AuthorizationPageTest {
 
     private static final String BASEURL = "http://test.uxcrowd.ru";
 
-    @Test
+    @Test(groups = { "positive auth test" })
     @Description("Провека функционала авторизации с заранее известными данными, " +
             "при успешном прохождении должны попасть в личный кабинет")
     public void authClient() {

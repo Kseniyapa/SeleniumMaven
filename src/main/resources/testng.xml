@@ -3,15 +3,24 @@
 
 <suite name="Suite">
     <test name="AuthorizationPage" annotations="Тест авторизации">
+        <groups>
+            <run>
+                <include name="positive auth test"/>
+            </run>
+        </groups>
         <classes>
             <class name="com.pflb.school.pages.AuthorizationPage"/>
         </classes>
     </test>
 
     <test name="MenuPage" annotations="Тест главного меню">
+        <groups>
+            <run>
+                <include name="positive test menu"/>
+            </run>
+        </groups>
         <classes>
             <class name="com.pflb.school.pages.MenuPage"/>
-            <class name="com.pflb.school.pages.AuthorizationPage"/>
         </classes>
     </test>
     <listeners>

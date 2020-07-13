@@ -18,7 +18,7 @@ public class MenuPageTest {
     private final AuthorizationPage authorizationPage = new AuthorizationPage();
     private static final String BASEURL = "http://test.uxcrowd.ru";
 
-    @Test(priority = 1)
+    @Test(priority = 1, groups = {"positive test menu"})
     @Description("Проверяем вкладку 'О продукте', " +
             "должна быть активна и при нажатии открывать соответствующий функционал")
     public void checkTabsProduct() {
@@ -27,7 +27,7 @@ public class MenuPageTest {
         Assert.assertTrue(menuPage.tabProductTitle());
     }
 
-    @Test(priority = 2)
+    @Test(priority = 2, groups = {"positive test menu"})
     @Description("Проверяем вкладку 'Цены'" +
             "должна быть активна и при нажатии открывать соответствующий функционал")
     public void checkTabsPrice() {
@@ -35,7 +35,7 @@ public class MenuPageTest {
         Assert.assertTrue(menuPage.tabMenuItemPrice());
     }
 
-    @Test(priority = 3)
+    @Test(priority = 3, groups = {"positive test menu"})
     @Description("Проверяем вкладку 'FAQ'" +
             "должна быть активна и при нажатии открывать соответствующий функционал")
     public void checkTabsFAQ() {
@@ -43,7 +43,7 @@ public class MenuPageTest {
         Assert.assertTrue(menuPage.tabMenuItemFAQ());
     }
 
-    @Test(priority = 4)
+    @Test(priority = 4, groups = {"positive test menu"})
     @Description("Проверяем вкладку 'Хочу тестировать сайты'" +
             "должна быть активна и при нажатии открывать соответствующий функционал")
     public void checkTabsWantTest() {
@@ -51,7 +51,7 @@ public class MenuPageTest {
         Assert.assertTrue(menuPage.tabWantTestButton());
     }
 
-    @Test(priority = 5)
+    @Test(priority = 5, groups = {"positive test menu"})
     @Description("Проверяем кнопку 'Войти'" +
             "должна быть активна и при нажатии открывать окно авторизации")
     public void checkLoginButton() {
