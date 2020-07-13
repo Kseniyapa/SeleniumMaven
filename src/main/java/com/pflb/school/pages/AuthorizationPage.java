@@ -7,13 +7,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-
-public class AuthorizationPage {
-
+public class AuthorizationPage  {
 
     public AuthorizationPage() {
         PageFactory.initElements(DriverManager.getDriver(), this);
     }
+
 
     @FindBy(id = "header-lk-button")
     private WebElement loginButton; // Кнопка "Войти"

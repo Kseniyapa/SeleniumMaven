@@ -1,6 +1,7 @@
 package testPages;
 
 import io.qameta.allure.Description;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.pflb.school.pages.AuthorizationPage;
@@ -22,8 +23,10 @@ public class AuthorizationPageTest {
     @Description("Провека функционала авторизации с заранее известными данными, " +
             "при успешном прохождении должны попасть в личный кабинет")
     public void authClient() {
+
         step("Открываем соединение'");
         authorizationPage.open(BASEURL);
+
         step("Нажимаем кнопку'Войти'");
         authorizationPage.clickLoginButton();
         step("Вводим email");
@@ -35,7 +38,6 @@ public class AuthorizationPageTest {
         step("Нажимаем кнопку 'Выйти' из личного кабинета");
         authorizationPage.setLogOutButton();
         Assert.assertTrue(authorizationPage.getCreateTestButtonState(), "Can not log in");
-
 
     }
 

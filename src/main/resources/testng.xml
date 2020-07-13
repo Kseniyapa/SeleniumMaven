@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+    <test name="AuthorizationPage" annotations="Тест авторизации">
+        <classes>
+            <class name="com.pflb.school.pages.AuthorizationPage"/>
+        </classes>
+    </test>
+
+    <test name="MenuPage" annotations="Тест главного меню">
+        <classes>
+            <class name="com.pflb.school.pages.MenuPage"/>
+            <class name="com.pflb.school.pages.AuthorizationPage"/>
+        </classes>
+    </test>
+
+</suite>
+
